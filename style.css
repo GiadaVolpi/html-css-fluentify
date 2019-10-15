@@ -10,7 +10,6 @@ body {
 
 header {
     background-color: #0D325A;
-    height: 400px;
 }
 
 .container {
@@ -103,4 +102,22 @@ header {
     border: 0;
     border-radius: 3px;
     padding: 10px;
+}
+
+.header_bottom {
+    padding-top: 50px;
+    height: 320px;
+    background-image: url("sfondo_header.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.jumbo {
+    font-size: 45px;
+    color: white;
+}
+
+#jumbo_button {
+    margin-top: 20px;
+    padding: 15px 20px;
 }
