@@ -144,10 +144,9 @@ header {
     width: 1400px;
     height: 600px;
     margin: auto;
-    background-color: orange;
 }
 
-.block_img {
+.block_img, .block_text {
     width: 33%;
     height: 250px;
     display: inline-block;
@@ -161,21 +160,77 @@ header {
 
 #img_left {
     padding-left: 150px;
-    border: 1px solid black;
 }
 
 #img_middle {
     padding-left: 115px;
-    border: 1px solid black;
 }
 
 #img_right {
-    padding-left: 140px;
-    border: 1px solid black;
+    padding-left: 120px;
 }
 
 .first_line:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.block_text {
+    padding: 20px;
+}
+
+.block_text h3 {
+    text-align: center;
+    color: #7eb507;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.fas {
+    font-size: 40px;
+    color: #ede8e8;
+}
+
+p {
+    text-align: center;
+    font-weight: lighter;
+    color: #a49fa5;
+}
+
+.second_line:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.piano_personalizzato {
+    width: 1400px;
+    margin: auto;
+}
+
+.block_left, .block_right {
+    width: 700px;
+    height: 500px;
+    float: left;
+}
+
+.montagna {
+    height: 400px;
+    margin-left: 130px;
+}
+
+.block_right {
+    padding: 40px 140px;
+}
+
+.block_right h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 45px;
+}
+
+.block_right p {
+    padding-top: 20px;
+    text-align: left;
 }
