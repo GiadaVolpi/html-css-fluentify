@@ -187,9 +187,16 @@ header {
     line-height: 30px;
 }
 
-.fas {
-    font-size: 40px;
-    color: #ede8e8;
+.block_text hr {
+    width: 30px;
+    border: none;
+    border-top: 3px solid #dbd9d9;
+    text-align: center;
+    margin: 15px auto;
+}
+
+#linea_block_middle {
+    margin-top: 45px;
 }
 
 p {
@@ -204,9 +211,15 @@ p {
     clear: both;
 }
 
+.linea_orizz hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #dbd9d9;
+}
+
 .piano_personalizzato {
     width: 1400px;
-    margin: auto;
+    margin: 50px auto 0 auto;
 }
 
 .block_left, .block_right {
